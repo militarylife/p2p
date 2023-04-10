@@ -1,0 +1,572 @@
+2019-09-09 11:10:10.036  INFO 8008 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@25d298aa: startup date [Mon Sep 09 11:10:10 CST 2019]; root of context hierarchy
+2019-09-09 11:10:11.858  INFO 8008 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-09 11:10:12.215  INFO 8008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c2c7750e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-09 11:10:13.018  INFO 8008 --- [main] c.c.f.a.a.AdminServiceApplication        : The following profiles are active: github
+2019-09-09 11:10:13.065  INFO 8008 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1968a61a: startup date [Mon Sep 09 11:10:13 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@25d298aa
+2019-09-09 11:10:18.829  INFO 8008 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2019-09-09 11:10:19.806  INFO 8008 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e7dd9ebb-f405-34ad-98bf-f97a858de051
+2019-09-09 11:10:19.939  INFO 8008 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-09-09 11:10:20.834  INFO 8008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a6ad7211] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-09 11:10:21.969  INFO 8008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$3f5b3a4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-09 11:10:22.116  INFO 8008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-09 11:10:22.210  INFO 8008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@ee1c499' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-09 11:10:22.311  INFO 8008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$642fdcfd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-09 11:10:22.373  INFO 8008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-09 11:10:22.531  INFO 8008 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c2c7750e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-09 11:10:26.662  INFO 8008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-09-09 11:10:26.754  INFO 8008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-09 11:10:26.756  INFO 8008 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-09-09 11:10:26.832  INFO 8008 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\Ruby26-x64\bin;C:\Users\apple\AppData\Local\Microsoft\WindowsApps;E:\apache-maven-3.5.4\bin;C:\Users\apple\AppData\Roaming\npm;.]
+2019-09-09 11:10:27.603  INFO 8008 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-09 11:10:27.604  INFO 8008 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 14539 ms
+2019-09-09 11:10:28.965  WARN 8008 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-09 11:10:29.787  INFO 8008 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-09 11:10:29.898  INFO 8008 --- [localhost-startStop-1] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@55a235fc
+2019-09-09 11:10:32.463  INFO 8008 --- [localhost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-09-09 11:10:32.963  INFO 8008 --- [localhost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-09-09 11:10:33.243  INFO 8008 --- [localhost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-09-09 11:10:33.302  INFO 8008 --- [localhost-startStop-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-09 11:10:33.695  INFO 8008 --- [localhost-startStop-1] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2019-09-09 11:10:33.717  INFO 8008 --- [localhost-startStop-1] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-09-09 11:10:33.925  INFO 8008 --- [localhost-startStop-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-09-09 11:10:35.951  INFO 8008 --- [localhost-startStop-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-09 11:10:39.469  INFO 8008 --- [localhost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-09 11:10:41.056  INFO 8008 --- [localhost-startStop-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-09 11:10:43.507  INFO 8008 --- [localhost-startStop-1] c.c.f.f.i.p.DefaultApplicationProvider   : App ID is set to 100003172 by app.id property from /META-INF/app.properties
+2019-09-09 11:10:43.510  INFO 8008 --- [localhost-startStop-1] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to null. Because it is not available in either (1) JVM system property 'env', (2) OS env variable 'ENV' nor (3) property 'env' from the properties InputStream.
+2019-09-09 11:10:43.511  INFO 8008 --- [localhost-startStop-1] c.c.f.a.biz.service.BizDBPropertySource  : Load config from DB : item.key.length.limit = 128
+2019-09-09 11:10:43.512  INFO 8008 --- [localhost-startStop-1] c.c.f.a.biz.service.BizDBPropertySource  : Load config from DB : item.value.length.limit = 20000
+2019-09-09 11:10:43.513  INFO 8008 --- [localhost-startStop-1] c.c.f.a.biz.service.BizDBPropertySource  : Load config from DB : eureka.service.url = http://localhost:8080/eureka/
+2019-09-09 11:10:43.514  INFO 8008 --- [localhost-startStop-1] c.c.f.a.biz.service.BizDBPropertySource  : Load config from DB : namespace.lock.switch = false
+2019-09-09 11:10:43.514  INFO 8008 --- [localhost-startStop-1] c.c.f.a.biz.service.BizDBPropertySource  : Load config from DB : config-service.cache.enabled = false
+2019-09-09 11:10:46.531  INFO 8008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-09 11:10:46.533  INFO 8008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-09-09 11:10:46.555  INFO 8008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-09 11:10:46.556  INFO 8008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-09 11:10:46.556  INFO 8008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-09 11:10:46.560  INFO 8008 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-09-09 11:10:46.564  INFO 8008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-09-09 11:10:46.575  INFO 8008 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'encodingFilter' to urls: [/*]
+2019-09-09 11:10:46.577  INFO 8008 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-09-09 11:10:51.174  INFO 8008 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42ee9b8e, org.springframework.security.web.context.SecurityContextPersistenceFilter@652f44b0, org.springframework.security.web.header.HeaderWriterFilter@7bd36904, org.springframework.security.web.authentication.logout.LogoutFilter@3f9fd3ec, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@63585147, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3c3df253, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@683c43ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@631d38fd, org.springframework.security.web.session.SessionManagementFilter@7395110d, org.springframework.security.web.access.ExceptionTranslationFilter@5adbc413]
+2019-09-09 11:10:51.312  WARN 8008 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-09 11:10:51.316  INFO 8008 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-09 11:10:51.566  INFO 8008 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-09 11:10:51.779  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1968a61a: startup date [Mon Sep 09 11:10:13 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@25d298aa
+2019-09-09 11:10:51.884  WARN 8008 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-09 11:10:52.006  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/version]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getVersion()
+2019-09-09 11:10:52.009  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/net]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getNet()
+2019-09-09 11:10:52.010  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/app]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getApp()
+2019-09-09 11:10:52.011  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apollo/server]}" onto public java.lang.String com.ctrip.framework.apollo.common.controller.ApolloInfoController.getServer()
+2019-09-09 11:10:52.026  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/appnamespaces/{namespaceName:.+}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.adminservice.controller.AppNamespaceController.delete(java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.027  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/appnamespaces],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.AppNamespaceDTO com.ctrip.framework.apollo.adminservice.controller.AppNamespaceController.create(com.ctrip.framework.apollo.common.dto.AppNamespaceDTO,boolean)
+2019-09-09 11:10:52.028  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/appnamespaces/{publicNamespaceName}/associated-namespaces/count],methods=[GET]}" onto public int com.ctrip.framework.apollo.adminservice.controller.AppNamespaceController.countPublicAppNamespaceAssociatedNamespaces(java.lang.String)
+2019-09-09 11:10:52.034  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/appnamespaces/{publicNamespaceName}/namespaces],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.NamespaceDTO> com.ctrip.framework.apollo.adminservice.controller.AppNamespaceController.findPublicAppNamespaceAllNamespaces(java.lang.String,org.springframework.data.domain.Pageable)
+2019-09-09 11:10:52.038  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/appnamespaces],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.AppNamespaceDTO> com.ctrip.framework.apollo.adminservice.controller.AppNamespaceController.getAppNamespaces(java.lang.String)
+2019-09-09 11:10:52.042  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.adminservice.controller.NamespaceBranchController.deleteBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.045  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.NamespaceDTO com.ctrip.framework.apollo.adminservice.controller.NamespaceBranchController.createBranch(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.047  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.GrayReleaseRuleDTO com.ctrip.framework.apollo.adminservice.controller.NamespaceBranchController.findBranchGrayRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.050  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches/{branchName}/rules],methods=[PUT]}" onto public void com.ctrip.framework.apollo.adminservice.controller.NamespaceBranchController.updateBranchGrayRules(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.GrayReleaseRuleDTO)
+2019-09-09 11:10:52.057  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/branches],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.NamespaceDTO com.ctrip.framework.apollo.adminservice.controller.NamespaceBranchController.loadNamespaceBranch(java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.060  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.ClusterDTO com.ctrip.framework.apollo.adminservice.controller.ClusterController.get(java.lang.String,java.lang.String)
+2019-09-09 11:10:52.061  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ClusterDTO> com.ctrip.framework.apollo.adminservice.controller.ClusterController.find(java.lang.String)
+2019-09-09 11:10:52.062  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName:.+}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.adminservice.controller.ClusterController.delete(java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.063  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ClusterDTO com.ctrip.framework.apollo.adminservice.controller.ClusterController.create(java.lang.String,boolean,com.ctrip.framework.apollo.common.dto.ClusterDTO)
+2019-09-09 11:10:52.066  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/cluster/{clusterName}/unique],methods=[GET]}" onto public boolean com.ctrip.framework.apollo.adminservice.controller.ClusterController.isAppIdUnique(java.lang.String,java.lang.String)
+2019-09-09 11:10:52.071  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/items/{itemId}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.ItemDTO com.ctrip.framework.apollo.adminservice.controller.ItemController.get(long)
+2019-09-09 11:10:52.072  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items/{key:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.ItemDTO com.ctrip.framework.apollo.adminservice.controller.ItemController.get(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.085  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items/{itemId}],methods=[PUT]}" onto public com.ctrip.framework.apollo.common.dto.ItemDTO com.ctrip.framework.apollo.adminservice.controller.ItemController.update(java.lang.String,java.lang.String,java.lang.String,long,com.ctrip.framework.apollo.common.dto.ItemDTO)
+2019-09-09 11:10:52.086  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/items/{itemId}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.adminservice.controller.ItemController.delete(long,java.lang.String)
+2019-09-09 11:10:52.087  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ItemDTO com.ctrip.framework.apollo.adminservice.controller.ItemController.create(java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.ItemDTO)
+2019-09-09 11:10:52.088  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/items],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ItemDTO> com.ctrip.framework.apollo.adminservice.controller.ItemController.findItems(java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.093  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.NamespaceDTO com.ctrip.framework.apollo.adminservice.controller.NamespaceController.get(java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.094  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/namespaces/{namespaceId}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.NamespaceDTO com.ctrip.framework.apollo.adminservice.controller.NamespaceController.get(java.lang.Long)
+2019-09-09 11:10:52.095  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.NamespaceDTO> com.ctrip.framework.apollo.adminservice.controller.NamespaceController.find(java.lang.String,java.lang.String)
+2019-09-09 11:10:52.095  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName:.+}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.adminservice.controller.NamespaceController.delete(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.100  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.NamespaceDTO com.ctrip.framework.apollo.adminservice.controller.NamespaceController.create(java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.NamespaceDTO)
+2019-09-09 11:10:52.102  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/associated-public-namespace],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.NamespaceDTO com.ctrip.framework.apollo.adminservice.controller.NamespaceController.findPublicNamespaceForAssociatedNamespace(java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.103  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/namespaces/publish_info],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Boolean> com.ctrip.framework.apollo.adminservice.controller.NamespaceController.namespacePublishInfo(java.lang.String)
+2019-09-09 11:10:52.106  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/releases/histories/by_release_id_and_operation],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.PageDTO<com.ctrip.framework.apollo.common.dto.ReleaseHistoryDTO> com.ctrip.framework.apollo.adminservice.controller.ReleaseHistoryController.findReleaseHistoryByReleaseIdAndOperation(long,int,org.springframework.data.domain.Pageable)
+2019-09-09 11:10:52.106  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/releases/histories],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.PageDTO<com.ctrip.framework.apollo.common.dto.ReleaseHistoryDTO> com.ctrip.framework.apollo.adminservice.controller.ReleaseHistoryController.findReleaseHistoriesByNamespace(java.lang.String,java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)
+2019-09-09 11:10:52.107  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/releases/histories/by_previous_release_id_and_operation],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.PageDTO<com.ctrip.framework.apollo.common.dto.ReleaseHistoryDTO> com.ctrip.framework.apollo.adminservice.controller.ReleaseHistoryController.findReleaseHistoryByPreviousReleaseIdAndOperation(long,int,org.springframework.data.domain.Pageable)
+2019-09-09 11:10:52.108  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/commit],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.CommitDTO> com.ctrip.framework.apollo.adminservice.controller.CommitController.find(java.lang.String,java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)
+2019-09-09 11:10:52.111  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/itemset],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.ctrip.framework.apollo.adminservice.controller.ItemSetController.create(java.lang.String,java.lang.String,java.lang.String,com.ctrip.framework.apollo.common.dto.ItemChangeSets)
+2019-09-09 11:10:52.112  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/lock],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.NamespaceLockDTO com.ctrip.framework.apollo.adminservice.controller.NamespaceLockController.getNamespaceLockOwner(java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.118  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/releases/{releaseId}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.adminservice.controller.ReleaseController.get(long)
+2019-09-09 11:10:52.120  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/gray-del-releases],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.adminservice.controller.ReleaseController.publish(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.util.Set<java.lang.String>)
+2019-09-09 11:10:52.123  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/releases],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.adminservice.controller.ReleaseController.publish(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)
+2019-09-09 11:10:52.124  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/releases/all],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ReleaseDTO> com.ctrip.framework.apollo.adminservice.controller.ReleaseController.findAllReleases(java.lang.String,java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)
+2019-09-09 11:10:52.127  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/updateAndPublish],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.adminservice.controller.ReleaseController.updateAndPublish(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,boolean,com.ctrip.framework.apollo.common.dto.ItemChangeSets)
+2019-09-09 11:10:52.129  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/releases/latest],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.ReleaseDTO com.ctrip.framework.apollo.adminservice.controller.ReleaseController.getLatest(java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.131  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/releases],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ReleaseDTO> com.ctrip.framework.apollo.adminservice.controller.ReleaseController.findReleaseByIds(java.lang.String)
+2019-09-09 11:10:52.137  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/releases/{releaseId}/rollback],methods=[PUT]}" onto public void com.ctrip.framework.apollo.adminservice.controller.ReleaseController.rollback(long,java.lang.String)
+2019-09-09 11:10:52.138  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/clusters/{clusterName}/namespaces/{namespaceName}/releases/active],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.ReleaseDTO> com.ctrip.framework.apollo.adminservice.controller.ReleaseController.findActiveReleases(java.lang.String,java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)
+2019-09-09 11:10:52.142  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId:.+}],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.AppDTO com.ctrip.framework.apollo.adminservice.controller.AppController.get(java.lang.String)
+2019-09-09 11:10:52.143  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId:.+}],methods=[PUT]}" onto public void com.ctrip.framework.apollo.adminservice.controller.AppController.update(java.lang.String,com.ctrip.framework.apollo.common.entity.App)
+2019-09-09 11:10:52.143  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.AppDTO> com.ctrip.framework.apollo.adminservice.controller.AppController.find(java.lang.String,org.springframework.data.domain.Pageable)
+2019-09-09 11:10:52.143  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId:.+}],methods=[DELETE]}" onto public void com.ctrip.framework.apollo.adminservice.controller.AppController.delete(java.lang.String,java.lang.String)
+2019-09-09 11:10:52.144  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps],methods=[POST]}" onto public com.ctrip.framework.apollo.common.dto.AppDTO com.ctrip.framework.apollo.adminservice.controller.AppController.create(com.ctrip.framework.apollo.common.dto.AppDTO)
+2019-09-09 11:10:52.145  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/apps/{appId}/unique],methods=[GET]}" onto public boolean com.ctrip.framework.apollo.adminservice.controller.AppController.isAppIdUnique(java.lang.String)
+2019-09-09 11:10:52.157  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.ctrip.framework.apollo.adminservice.controller.IndexController.index()
+2019-09-09 11:10:52.161  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/instances/by-release],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.PageDTO<com.ctrip.framework.apollo.common.dto.InstanceDTO> com.ctrip.framework.apollo.adminservice.controller.InstanceConfigController.getByRelease(long,org.springframework.data.domain.Pageable)
+2019-09-09 11:10:52.161  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/instances/by-namespace-and-releases-not-in],methods=[GET]}" onto public java.util.List<com.ctrip.framework.apollo.common.dto.InstanceDTO> com.ctrip.framework.apollo.adminservice.controller.InstanceConfigController.getByReleasesNotIn(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.162  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/instances/by-namespace/count],methods=[GET]}" onto public long com.ctrip.framework.apollo.adminservice.controller.InstanceConfigController.getInstancesCountByNamespace(java.lang.String,java.lang.String,java.lang.String)
+2019-09-09 11:10:52.165  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/instances/by-namespace],methods=[GET]}" onto public com.ctrip.framework.apollo.common.dto.PageDTO<com.ctrip.framework.apollo.common.dto.InstanceDTO> com.ctrip.framework.apollo.adminservice.controller.InstanceConfigController.getInstancesByNamespace(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)
+2019-09-09 11:10:52.177  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-09-09 11:10:52.180  INFO 8008 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-09-09 11:10:52.367  INFO 8008 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-09 11:10:52.369  INFO 8008 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-09 11:10:52.373  INFO 8008 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/img/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-09 11:10:52.374  INFO 8008 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/vendor/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-09 11:10:52.375  INFO 8008 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/scripts/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-09 11:10:52.380  INFO 8008 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/styles/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-09 11:10:52.381  INFO 8008 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/views/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-09 11:10:52.453  INFO 8008 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalDefaultExceptionHandler
+2019-09-09 11:10:54.630  INFO 8008 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path ''
+2019-09-09 11:10:54.670  INFO 8008 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-09-09 11:10:54.686  INFO 8008 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2019-09-09 11:10:55.546  INFO 8008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-09-09 11:10:55.592  INFO 8008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-09-09 11:10:55.622  INFO 8008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-09-09 11:10:55.627  INFO 8008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-09-09 11:10:55.638  INFO 8008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-09-09 11:10:55.658  INFO 8008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [apollo-adminservice:name=environmentManager,type=EnvironmentManager]
+2019-09-09 11:10:55.682  INFO 8008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [apollo-adminservice:name=refreshScope,type=RefreshScope]
+2019-09-09 11:10:55.770  INFO 8008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [apollo-adminservice:name=configurationPropertiesRebinder,context=1968a61a,type=ConfigurationPropertiesRebinder]
+2019-09-09 11:10:55.803  INFO 8008 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [apollo-adminservice:name=dataSource,type=HikariDataSource]
+2019-09-09 11:10:55.835  INFO 8008 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2019-09-09 11:10:55.896  INFO 8008 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-09-09 11:10:55.998  INFO 8008 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-09-09 11:10:56.465  INFO 8008 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-09-09 11:10:56.465  INFO 8008 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-09-09 11:10:56.805  INFO 8008 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-09-09 11:10:56.812  INFO 8008 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-09-09 11:10:57.303  INFO 8008 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-09 11:10:57.400  INFO 8008 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-09-09 11:10:57.401  INFO 8008 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-09-09 11:10:57.402  INFO 8008 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-09-09 11:10:57.404  INFO 8008 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-09-09 11:10:57.404  INFO 8008 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-09-09 11:10:57.405  INFO 8008 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-09-09 11:10:57.405  INFO 8008 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-09-09 11:10:59.577 ERROR 8008 --- [main] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1051)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:965)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:414)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:269)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:63)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:290)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$ca306e2d.CGLIB$eurekaClient$2(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$ca306e2d$$FastClassBySpringCGLIB$$1bb3c59e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$ca306e2d.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:353)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:350)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:167)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:223)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:494)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$5bbba2d8.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:39)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:80)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:885)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.ctrip.framework.apollo.adminservice.AdminServiceApplication.main(AdminServiceApplication.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:54)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 83 common frames omitted
+
+2019-09-09 11:10:59.579  WARN 8008 --- [main] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-09-09 11:10:59.584 ERROR 8008 --- [main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APOLLO-ADMINSERVICE/DESKTOP-N226DJA.lan:apollo-adminservice:8090 - was unable to refresh its cache! status = Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1051)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:965)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:414)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:269)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:63)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:290)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$ca306e2d.CGLIB$eurekaClient$2(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$ca306e2d$$FastClassBySpringCGLIB$$1bb3c59e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$ca306e2d.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:353)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:350)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:167)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:223)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:494)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$5bbba2d8.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:39)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:80)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:885)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.ctrip.framework.apollo.adminservice.AdminServiceApplication.main(AdminServiceApplication.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:54)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-09-09 11:10:59.585  WARN 8008 --- [main] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+2019-09-09 11:10:59.588  INFO 8008 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-09-09 11:10:59.595  INFO 8008 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-09 11:10:59.604  INFO 8008 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1567998659602 with initial instances count: 0
+2019-09-09 11:10:59.627  INFO 8008 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application apollo-adminservice with eureka with status UP
+2019-09-09 11:10:59.631  INFO 8008 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1567998659631, current=UP, previous=STARTING]
+2019-09-09 11:10:59.714  INFO 8008 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APOLLO-ADMINSERVICE/DESKTOP-N226DJA.lan:apollo-adminservice:8090: registering service...
+2019-09-09 11:10:59.819  INFO 8008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-09-09 11:10:59.823  INFO 8008 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8090
+2019-09-09 11:10:59.831  INFO 8008 --- [main] c.c.f.a.a.AdminServiceApplication        : Started AdminServiceApplication in 52.436 seconds (JVM running for 55.206)
+2019-09-09 11:11:00.691  INFO 8008 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_APOLLO-ADMINSERVICE/DESKTOP-N226DJA.lan:apollo-adminservice:8090 - registration status: 204
+2019-09-09 11:11:29.588  INFO 8008 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-09-09 11:11:29.589  INFO 8008 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-09-09 11:11:29.591  INFO 8008 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-09-09 11:11:29.592  INFO 8008 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-09-09 11:11:29.593  INFO 8008 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-09-09 11:11:29.593  INFO 8008 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-09-09 11:11:29.594  INFO 8008 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-09-09 11:11:29.709  INFO 8008 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-09-09 11:11:32.121  INFO 8008 --- [http-nio-8090-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-09 11:11:32.122  INFO 8008 --- [http-nio-8090-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-09-09 11:11:32.171  INFO 8008 --- [http-nio-8090-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 47 ms
+2019-09-09 11:11:57.411  INFO 8008 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-09 11:12:57.414  INFO 8008 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-09-09 11:13:57.415  WARN 8008 --- [AsyncResolver-bootstrap-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor timed out
+
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:64)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-09-09 11:41:07.122  WARN 8008 --- [http-nio-8090-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:41:13.692  WARN 8008 --- [Apollo-ConfigRefresher-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:41:27.138  WARN 8008 --- [http-nio-8090-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:41:31.294  WARN 8008 --- [DiscoveryClient-InstanceInfoReplicator-0] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:41:47.150  WARN 8008 --- [http-nio-8090-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:42:07.162  WARN 8008 --- [http-nio-8090-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:42:27.172  WARN 8008 --- [http-nio-8090-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:42:47.193  WARN 8008 --- [http-nio-8090-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:43:07.202  WARN 8008 --- [http-nio-8090-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:43:27.222  WARN 8008 --- [http-nio-8090-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:43:47.234  WARN 8008 --- [http-nio-8090-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:44:07.242  WARN 8008 --- [http-nio-8090-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:44:27.254  WARN 8008 --- [http-nio-8090-exec-11] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:44:47.261  WARN 8008 --- [http-nio-8090-exec-12] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:45:07.270  WARN 8008 --- [http-nio-8090-exec-13] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:45:27.283  WARN 8008 --- [http-nio-8090-exec-14] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:45:47.295  WARN 8008 --- [http-nio-8090-exec-15] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:46:07.304  WARN 8008 --- [http-nio-8090-exec-16] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:46:27.318  WARN 8008 --- [http-nio-8090-exec-17] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:46:47.328  WARN 8008 --- [http-nio-8090-exec-18] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:47:07.339  WARN 8008 --- [http-nio-8090-exec-19] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:47:27.350  WARN 8008 --- [http-nio-8090-exec-20] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:47:47.363  WARN 8008 --- [http-nio-8090-exec-21] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:48:07.371  WARN 8008 --- [http-nio-8090-exec-22] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:48:27.385  WARN 8008 --- [http-nio-8090-exec-23] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:48:47.395  WARN 8008 --- [http-nio-8090-exec-24] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:49:07.405  WARN 8008 --- [http-nio-8090-exec-25] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:49:27.415  WARN 8008 --- [http-nio-8090-exec-26] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:49:47.427  WARN 8008 --- [http-nio-8090-exec-27] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:50:07.438  WARN 8008 --- [http-nio-8090-exec-28] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:50:27.446  WARN 8008 --- [http-nio-8090-exec-29] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:50:47.455  WARN 8008 --- [http-nio-8090-exec-30] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:51:07.474  WARN 8008 --- [http-nio-8090-exec-31] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:51:27.485  WARN 8008 --- [http-nio-8090-exec-32] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:51:47.496  WARN 8008 --- [http-nio-8090-exec-33] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:52:07.508  WARN 8008 --- [http-nio-8090-exec-34] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:52:27.520  WARN 8008 --- [http-nio-8090-exec-35] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:52:47.532  WARN 8008 --- [http-nio-8090-exec-36] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:53:07.541  WARN 8008 --- [http-nio-8090-exec-37] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:53:27.550  WARN 8008 --- [http-nio-8090-exec-38] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:53:47.565  WARN 8008 --- [http-nio-8090-exec-39] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:54:07.578  WARN 8008 --- [http-nio-8090-exec-40] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:54:27.587  WARN 8008 --- [http-nio-8090-exec-41] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:54:47.607  WARN 8008 --- [http-nio-8090-exec-42] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:55:07.614  WARN 8008 --- [http-nio-8090-exec-43] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:55:27.623  WARN 8008 --- [http-nio-8090-exec-44] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:55:47.634  WARN 8008 --- [http-nio-8090-exec-45] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:56:07.644  WARN 8008 --- [http-nio-8090-exec-46] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:56:27.654  WARN 8008 --- [http-nio-8090-exec-47] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:56:47.669  WARN 8008 --- [http-nio-8090-exec-48] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:57:07.683  WARN 8008 --- [http-nio-8090-exec-49] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:57:27.698  WARN 8008 --- [http-nio-8090-exec-50] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:57:47.714  WARN 8008 --- [http-nio-8090-exec-51] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:58:07.726  WARN 8008 --- [http-nio-8090-exec-52] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:58:27.739  WARN 8008 --- [http-nio-8090-exec-53] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:58:47.749  WARN 8008 --- [http-nio-8090-exec-54] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:59:07.756  WARN 8008 --- [http-nio-8090-exec-55] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:59:27.767  WARN 8008 --- [http-nio-8090-exec-56] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 11:59:47.775  WARN 8008 --- [http-nio-8090-exec-57] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:00:07.784  WARN 8008 --- [http-nio-8090-exec-58] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:00:27.794  WARN 8008 --- [http-nio-8090-exec-59] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:00:47.803  WARN 8008 --- [http-nio-8090-exec-60] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:01:07.812  WARN 8008 --- [http-nio-8090-exec-61] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:01:27.821  WARN 8008 --- [http-nio-8090-exec-62] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:01:47.830  WARN 8008 --- [http-nio-8090-exec-63] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:02:07.839  WARN 8008 --- [http-nio-8090-exec-64] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:02:27.847  WARN 8008 --- [http-nio-8090-exec-65] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:02:47.861  WARN 8008 --- [http-nio-8090-exec-66] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:03:07.869  WARN 8008 --- [http-nio-8090-exec-67] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:03:27.875  WARN 8008 --- [http-nio-8090-exec-68] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:03:47.885  WARN 8008 --- [http-nio-8090-exec-69] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:04:07.896  WARN 8008 --- [http-nio-8090-exec-70] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:04:27.906  WARN 8008 --- [http-nio-8090-exec-71] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:04:47.915  WARN 8008 --- [http-nio-8090-exec-72] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:05:07.926  WARN 8008 --- [http-nio-8090-exec-73] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:05:27.937  WARN 8008 --- [http-nio-8090-exec-74] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:05:47.949  WARN 8008 --- [http-nio-8090-exec-75] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:06:07.963  WARN 8008 --- [http-nio-8090-exec-76] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:06:27.976  WARN 8008 --- [http-nio-8090-exec-77] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:06:47.983  WARN 8008 --- [http-nio-8090-exec-78] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:07:07.993  WARN 8008 --- [http-nio-8090-exec-79] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:07:28.005  WARN 8008 --- [http-nio-8090-exec-80] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:07:48.013  WARN 8008 --- [http-nio-8090-exec-81] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:08:08.022  WARN 8008 --- [http-nio-8090-exec-82] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:08:28.035  WARN 8008 --- [http-nio-8090-exec-83] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:08:48.045  WARN 8008 --- [http-nio-8090-exec-84] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:09:08.056  WARN 8008 --- [http-nio-8090-exec-85] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:09:28.065  WARN 8008 --- [http-nio-8090-exec-86] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:09:48.074  WARN 8008 --- [http-nio-8090-exec-87] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:10:08.089  WARN 8008 --- [http-nio-8090-exec-88] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:10:28.096  WARN 8008 --- [http-nio-8090-exec-89] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:10:48.108  WARN 8008 --- [http-nio-8090-exec-90] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:11:08.117  WARN 8008 --- [http-nio-8090-exec-91] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:11:28.124  WARN 8008 --- [http-nio-8090-exec-92] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:11:48.138  WARN 8008 --- [http-nio-8090-exec-93] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:12:08.152  WARN 8008 --- [http-nio-8090-exec-94] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:12:28.162  WARN 8008 --- [http-nio-8090-exec-95] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:12:48.173  WARN 8008 --- [http-nio-8090-exec-96] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:13:08.181  WARN 8008 --- [http-nio-8090-exec-97] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:13:28.190  WARN 8008 --- [http-nio-8090-exec-98] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:13:48.204  WARN 8008 --- [http-nio-8090-exec-99] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:14:08.214  WARN 8008 --- [http-nio-8090-exec-100] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:14:28.224  WARN 8008 --- [http-nio-8090-exec-101] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:14:48.238  WARN 8008 --- [http-nio-8090-exec-102] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:15:08.245  WARN 8008 --- [http-nio-8090-exec-103] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:15:28.252  WARN 8008 --- [http-nio-8090-exec-104] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:15:48.266  WARN 8008 --- [http-nio-8090-exec-105] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:16:08.278  WARN 8008 --- [http-nio-8090-exec-106] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:16:28.286  WARN 8008 --- [http-nio-8090-exec-107] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:16:48.294  WARN 8008 --- [http-nio-8090-exec-108] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:17:08.303  WARN 8008 --- [http-nio-8090-exec-109] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:17:28.311  WARN 8008 --- [http-nio-8090-exec-110] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:17:48.320  WARN 8008 --- [http-nio-8090-exec-111] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:18:08.329  WARN 8008 --- [http-nio-8090-exec-112] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:18:28.337  WARN 8008 --- [http-nio-8090-exec-113] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:18:48.345  WARN 8008 --- [http-nio-8090-exec-114] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:19:08.353  WARN 8008 --- [http-nio-8090-exec-115] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:19:28.361  WARN 8008 --- [http-nio-8090-exec-116] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:19:48.369  WARN 8008 --- [http-nio-8090-exec-117] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:20:08.378  WARN 8008 --- [http-nio-8090-exec-118] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:20:28.386  WARN 8008 --- [http-nio-8090-exec-119] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:20:48.394  WARN 8008 --- [http-nio-8090-exec-120] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:21:08.406  WARN 8008 --- [http-nio-8090-exec-121] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:21:28.415  WARN 8008 --- [http-nio-8090-exec-122] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:21:48.423  WARN 8008 --- [http-nio-8090-exec-123] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:22:08.432  WARN 8008 --- [http-nio-8090-exec-124] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:22:28.440  WARN 8008 --- [http-nio-8090-exec-125] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:22:48.448  WARN 8008 --- [http-nio-8090-exec-126] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:23:08.458  WARN 8008 --- [http-nio-8090-exec-127] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:23:28.469  WARN 8008 --- [http-nio-8090-exec-128] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:23:48.478  WARN 8008 --- [http-nio-8090-exec-129] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:24:08.487  WARN 8008 --- [http-nio-8090-exec-130] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:24:28.495  WARN 8008 --- [http-nio-8090-exec-131] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:24:48.502  WARN 8008 --- [http-nio-8090-exec-132] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:25:08.513  WARN 8008 --- [http-nio-8090-exec-133] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:25:28.521  WARN 8008 --- [http-nio-8090-exec-134] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:25:48.530  WARN 8008 --- [http-nio-8090-exec-135] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:26:08.538  WARN 8008 --- [http-nio-8090-exec-136] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:26:28.547  WARN 8008 --- [http-nio-8090-exec-137] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:26:48.555  WARN 8008 --- [http-nio-8090-exec-138] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:27:08.566  WARN 8008 --- [http-nio-8090-exec-139] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:27:28.574  WARN 8008 --- [http-nio-8090-exec-140] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:27:48.582  WARN 8008 --- [http-nio-8090-exec-141] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:28:08.592  WARN 8008 --- [http-nio-8090-exec-142] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:28:28.600  WARN 8008 --- [http-nio-8090-exec-143] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:28:48.609  WARN 8008 --- [http-nio-8090-exec-144] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:29:08.618  WARN 8008 --- [http-nio-8090-exec-145] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:29:28.626  WARN 8008 --- [http-nio-8090-exec-146] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:29:48.636  WARN 8008 --- [http-nio-8090-exec-147] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:30:08.645  WARN 8008 --- [http-nio-8090-exec-148] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:30:28.655  WARN 8008 --- [http-nio-8090-exec-149] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:30:48.663  WARN 8008 --- [http-nio-8090-exec-150] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:31:08.670  WARN 8008 --- [http-nio-8090-exec-151] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:31:28.680  WARN 8008 --- [http-nio-8090-exec-152] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:31:48.689  WARN 8008 --- [http-nio-8090-exec-153] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:32:08.693  WARN 8008 --- [http-nio-8090-exec-154] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:32:28.704  WARN 8008 --- [http-nio-8090-exec-155] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:32:48.712  WARN 8008 --- [http-nio-8090-exec-156] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:33:08.723  WARN 8008 --- [http-nio-8090-exec-157] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:33:28.732  WARN 8008 --- [http-nio-8090-exec-158] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:33:48.738  WARN 8008 --- [http-nio-8090-exec-159] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:34:08.749  WARN 8008 --- [http-nio-8090-exec-160] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:34:28.757  WARN 8008 --- [http-nio-8090-exec-161] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:34:48.765  WARN 8008 --- [http-nio-8090-exec-162] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:35:08.773  WARN 8008 --- [http-nio-8090-exec-163] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:35:28.782  WARN 8008 --- [http-nio-8090-exec-164] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:35:48.790  WARN 8008 --- [http-nio-8090-exec-165] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:36:08.796  WARN 8008 --- [http-nio-8090-exec-166] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:36:28.806  WARN 8008 --- [http-nio-8090-exec-167] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:36:48.817  WARN 8008 --- [http-nio-8090-exec-168] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:37:08.831  WARN 8008 --- [http-nio-8090-exec-169] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:37:28.840  WARN 8008 --- [http-nio-8090-exec-170] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:37:48.850  WARN 8008 --- [http-nio-8090-exec-171] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:38:08.859  WARN 8008 --- [http-nio-8090-exec-172] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:38:28.866  WARN 8008 --- [http-nio-8090-exec-173] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:38:48.876  WARN 8008 --- [http-nio-8090-exec-174] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:39:08.885  WARN 8008 --- [http-nio-8090-exec-175] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:39:28.893  WARN 8008 --- [http-nio-8090-exec-176] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:39:48.903  WARN 8008 --- [http-nio-8090-exec-177] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:40:08.914  WARN 8008 --- [http-nio-8090-exec-178] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:40:28.921  WARN 8008 --- [http-nio-8090-exec-179] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:40:48.931  WARN 8008 --- [http-nio-8090-exec-180] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:41:08.940  WARN 8008 --- [http-nio-8090-exec-181] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:41:28.949  WARN 8008 --- [http-nio-8090-exec-182] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:41:48.957  WARN 8008 --- [http-nio-8090-exec-183] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:42:08.968  WARN 8008 --- [http-nio-8090-exec-184] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:42:28.975  WARN 8008 --- [http-nio-8090-exec-185] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:42:48.983  WARN 8008 --- [http-nio-8090-exec-186] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:43:08.991  WARN 8008 --- [http-nio-8090-exec-187] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:43:29.001  WARN 8008 --- [http-nio-8090-exec-188] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:43:49.010  WARN 8008 --- [http-nio-8090-exec-189] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:44:09.018  WARN 8008 --- [http-nio-8090-exec-190] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:44:29.029  WARN 8008 --- [http-nio-8090-exec-191] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:44:49.038  WARN 8008 --- [http-nio-8090-exec-192] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:45:09.046  WARN 8008 --- [http-nio-8090-exec-193] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:45:29.053  WARN 8008 --- [http-nio-8090-exec-194] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:45:49.069  WARN 8008 --- [http-nio-8090-exec-195] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:46:09.077  WARN 8008 --- [http-nio-8090-exec-196] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:46:29.086  WARN 8008 --- [http-nio-8090-exec-197] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:46:49.095  WARN 8008 --- [http-nio-8090-exec-198] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:47:09.103  WARN 8008 --- [http-nio-8090-exec-199] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null
+2019-09-09 12:47:29.111  WARN 8008 --- [http-nio-8090-exec-200] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: null

@@ -1,0 +1,1 @@
+[${project.name}][${env:SERVER_PORT}] 2022-04-30 14:00:02,004 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration

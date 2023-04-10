@@ -1,0 +1,1 @@
+[${project.name}][${env:SERVER_PORT}] 2022-04-30 18:00:02,696 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms

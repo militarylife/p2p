@@ -1,0 +1,2 @@
+[${project.name}][${env:SERVER_PORT}] 2023-04-09 18:02:19,939 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2023-04-09 18:02:26,941 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms

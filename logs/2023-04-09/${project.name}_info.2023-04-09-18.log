@@ -1,0 +1,10 @@
+[${project.name}][${env:SERVER_PORT}] 2023-04-09 21:01:52,145 INFO [DiscoveryClient-HeartbeatExecutor-0][DiscoveryClient.java:850] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.229.1:53010 - Re-registering apps/GATEWAY-SERVER
+[${project.name}][${env:SERVER_PORT}] 2023-04-09 21:01:52,147 INFO [DiscoveryClient-HeartbeatExecutor-0][DiscoveryClient.java:826] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.229.1:53010: registering service...
+[${project.name}][${env:SERVER_PORT}] 2023-04-09 21:01:52,156 INFO [http-nio-53000-exec-1][AbstractInstanceRegistry.java:266] - Registered instance GATEWAY-SERVER/gateway-server:192.168.229.1:53010 with status UP (replication=false)
+[${project.name}][${env:SERVER_PORT}] 2023-04-09 21:01:52,157 INFO [DiscoveryClient-HeartbeatExecutor-0][DiscoveryClient.java:835] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.229.1:53010 - registration status: 204
+[${project.name}][${env:SERVER_PORT}] 2023-04-09 21:01:52,675 INFO [http-nio-53000-exec-8][AbstractInstanceRegistry.java:266] - Registered instance GATEWAY-SERVER/gateway-server:192.168.229.1:53010 with status UP (replication=true)
+[${project.name}][${env:SERVER_PORT}] 2023-04-09 21:01:56,486 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10ms
+[${project.name}][${env:SERVER_PORT}] 2023-04-09 21:02:06,489 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 2ms
+[${project.name}][${env:SERVER_PORT}] 2023-04-09 21:02:16,502 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
+[${project.name}][${env:SERVER_PORT}] 2023-04-09 21:02:26,507 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 4ms
+[${project.name}][${env:SERVER_PORT}] 2023-04-09 21:02:36,510 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms

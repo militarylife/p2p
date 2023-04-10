@@ -1,0 +1,6 @@
+[${project.name}][${env:SERVER_PORT}] 2023-04-10 14:53:50,274 INFO [DiscoveryClient-HeartbeatExecutor-0][DiscoveryClient.java:850] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.229.1:53010 - Re-registering apps/GATEWAY-SERVER
+[${project.name}][${env:SERVER_PORT}] 2023-04-10 14:53:50,330 INFO [DiscoveryClient-HeartbeatExecutor-0][DiscoveryClient.java:826] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.229.1:53010: registering service...
+[${project.name}][${env:SERVER_PORT}] 2023-04-10 14:53:50,750 INFO [http-nio-53000-exec-10][AbstractInstanceRegistry.java:266] - Registered instance GATEWAY-SERVER/gateway-server:192.168.229.1:53010 with status UP (replication=false)
+[${project.name}][${env:SERVER_PORT}] 2023-04-10 14:53:50,767 INFO [DiscoveryClient-HeartbeatExecutor-0][DiscoveryClient.java:835] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.229.1:53010 - registration status: 204
+[${project.name}][${env:SERVER_PORT}] 2023-04-10 14:53:51,298 INFO [http-nio-53000-exec-2][AbstractInstanceRegistry.java:266] - Registered instance GATEWAY-SERVER/gateway-server:192.168.229.1:53010 with status UP (replication=true)
+[${project.name}][${env:SERVER_PORT}] 2023-04-10 14:53:52,375 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 50484156ms

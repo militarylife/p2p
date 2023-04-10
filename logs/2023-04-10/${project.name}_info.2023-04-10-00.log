@@ -1,0 +1,6 @@
+[${project.name}][${env:SERVER_PORT}] 2023-04-10 00:51:59,146 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 10800451ms
+[${project.name}][${env:SERVER_PORT}] 2023-04-10 00:52:09,150 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 3ms
+[${project.name}][${env:SERVER_PORT}] 2023-04-10 00:52:09,151 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:611] - Evicting 1 items (expired=2, evictionLimit=1)
+[${project.name}][${env:SERVER_PORT}] 2023-04-10 00:52:09,152 WARN [Eureka-EvictionTimer][AbstractInstanceRegistry.java:623] - DS: Registry: expired lease for GATEWAY-SERVER/gateway-server:192.168.229.1:53010
+[${project.name}][${env:SERVER_PORT}] 2023-04-10 00:52:09,152 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:330] - Cancelled instance GATEWAY-SERVER/gateway-server:192.168.229.1:53010 (replication=false)
+[${project.name}][${env:SERVER_PORT}] 2023-04-10 00:52:19,155 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 5ms
